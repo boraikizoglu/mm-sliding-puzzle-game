@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  font-family: Helvetica, sans-serif;
+}
+html,
+body,
+.container {
+  height: 100%;
+}
+.container {
+  display: flex;
+}
+
+.container .game {
+  margin: auto;
+  text-align: center;
+  margin-top: 2%;
+  line-height: 100px;
+  width: 550px;
+  height: 550px;
+}
+
+.container .game .square {
+  width: 150px;
+  height: 150px;
+  margin-right: 7px;
+  border-radius: 4px;
+  margin-bottom: 7px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  position: absolute;
+}
+
+.container .game .empty {
+  width: 150px;
+  height: 150px;
+  margin-right: 7px;
+  border-radius: 4px;
+  margin-bottom: 7px;
+  transition: all 0.3s ease-in;
+  position: absolute;
+  opacity: 0;
+}
