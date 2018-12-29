@@ -6,3 +6,5 @@ Run Development server
 
 Run tests
 `yarn test`
+
+Demo: https://monk-puzzle.herokuapp.com/
